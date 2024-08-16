@@ -1,0 +1,40 @@
+{
+    "chart_family": "line",
+    "chart_type": "multi_line",
+    "x_axis": {
+        "key": "data_quarter_lc2",
+        "is_group": true,
+        "properties": {
+            "value_delimiter": "-",
+            "color": null,
+            "style": null,
+            "format": "MMM-YY"
+        },
+        "type": "client"
+    },
+    "y_axis": [
+        {
+            "key": "tow_penetration_issuer_lc2",
+            "is_group": true,
+            "properties": {
+                "value_delimiter": ",",
+                "color": null,
+                "style": null,
+                "format": "%"
+            },
+            "type": "client"
+        },
+        {
+            "key": "tow_penetration_peers_lc2",
+            "is_group": true,
+            "properties": {
+                "value_delimiter": ",",
+                "color": null,
+                "style": null,
+                "format": "%"
+            },
+            "type": "client"
+        }
+    ]
+    
+}

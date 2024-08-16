@@ -1,0 +1,42 @@
+{
+    "chart_family": "barchart",
+    "chart_type": "grouped",
+    "x_axis": {
+        "key": "tow_comp_spend_gb1",
+        "is_group": true,
+        "properties": {
+            "value_delimiter": "-",
+            "color": null,
+            "style": null,
+            "format": "txt"
+        },
+        "type": "client"
+    },
+    "y_axis": [
+        {
+            "series_name": "TOW Cardholders",
+            "key": "spend_cardholders_gb1",
+            "is_group": true,
+            "properties": {
+                "value_delimiter": ",",
+                "color": null,
+                "style": null,
+                "format": "%##"
+            },
+            "type": "client"
+        },
+        {
+            "series_name": "TOW Peers",
+            "key": "spend_peers_gb1",
+            "is_group": true,
+            "properties": {
+                "value_delimiter": ",",
+                "color": null,
+                "style": null,
+                "format": "%##"
+            },
+            "type": "client"
+        }
+    ]
+    
+}

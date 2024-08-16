@@ -1,0 +1,65 @@
+{
+    "chart_family": "waterfall",
+    "chart_type": "default",
+    "x_axis": {
+        "key": "lg_category_wf1",
+        "is_group": true,
+        "properties": {
+            "value_delimiter": "-",
+            "color": null,
+            "style": null,
+            "format": "txt"
+        },
+        "type": "client"
+    },
+    "y_axis": [
+        {
+            "key": "lg_anchors_wf1",
+            "is_group": true,
+            "properties": {
+                "value_delimiter": ",",
+                "color": null,
+                "style": null,
+                "format": "##.#%"
+            },
+            "type": "client"
+        },
+        {
+            "key": "base_wf1",
+            "is_group": true,
+            "properties": {
+                "value_delimiter": ",",
+                "color": null,
+                "style": null,
+                "format": "##.#%"
+            },
+            "type": "client"
+        },
+        {
+            "key": "positive_wf1",
+            "is_group": true,
+            "properties": {
+                "value_delimiter": ",",
+                "color": null,
+                "style": null,
+                "format": "##.#%"
+            },
+            "type": "client"
+        },
+        {
+            "key": "negative__wf1",
+            "is_group": true,
+            "properties": {
+                "value_delimiter": ",",
+                "color": null,
+                "style": null,
+                "format": "##.#%"
+            },
+            "type": "client"
+        }
+
+        
+    ]
+    
+}
+

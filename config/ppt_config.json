@@ -1,0 +1,49 @@
+{
+    "deck_name": "Top of Wallet",
+    "template_file": "tow.pptx",
+    "version": "1.0",
+    "template_strings": ["issuer", "date", "tow_growth_vs_peer"],
+    "slides": [
+        {
+            "type": "cover",
+            "slide_number": 1,
+            "objects": [
+                {
+                    "shape_type": "textbox",
+                    "shape_name": "title",
+                    "template_text": "Top of Wallet Analysis for {issuer}"
+                },
+                {
+                    "shape_type": "textbox",
+                    "shape_name": "title",
+                    "template_text": "{date}"
+                }
+            ]
+        },
+        {
+            "type": "content",
+            "slide_number": 2,
+            "objects": [
+                {
+                    "shape_type": "textbox",
+                    "shape_name": "tow_growth",
+                    "template_text": "Top of wallet growth is {tow_growth_vs_peer} relative to peers"
+                },
+                {
+                    "shape_type": "chart",
+                    "shape_name": "tow_pv",
+                    "chart_type": "clustered_bar",
+                    "chart_table_source": "tow_final",
+                    "chart_category_column": "channel",
+                    "chart_category_sort": ["CP", "CNP"],
+                    "chart_series_columns": ["pv_issuer", "pv_peer"],
+                    "chart_series_labels": ["Issuer", "Peer"]
+                },
+                {
+                    "shape_type": "table",
+                    "shape_name": "tow_table"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "chart_family": "piechart",
+    "chart_type": "default",
+    "x_axis": {
+        "key": "active_spend_group_pie1",
+        "is_group": true,
+        "properties": {
+            "value_delimiter": "-",
+            "color": null,
+            "style": null,
+            "format": "txt"
+        },
+        "type": "client"
+    },
+    "y_axis": [
+        {
+            "series_name":"ToW",
+            "key": "tow_spend_per_active_pie1",
+            "is_group": true,
+            "properties": {
+                "value_delimiter": ",",
+                "color": null,
+                "style": null,
+                "format": "txt"
+            },
+            "type": "client"
+        }
+    ]
+    
+}
